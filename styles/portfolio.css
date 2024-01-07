@@ -113,10 +113,11 @@ nav a {
 
 
 /*main section styles*/
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* About section styles*/
 
 .about {
@@ -126,12 +127,16 @@ main{
     margin: 130px 0;
 }
 
-.about-info-container{
-display: flex;
-justify-content: space-around;
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
 
 }
 
-.about-info{
+.about-info {
     text-align: center;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
 }
