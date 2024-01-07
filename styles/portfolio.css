@@ -183,6 +183,13 @@ font-size:30px;
     gap: 50px;
 }
 
+.resume-item-institute{
+    margin-bottom:20px;
+    margin-top: 0px;
+}
+
+
+
 .resume-item-institute,.resume-item-description{
     color: #757575;
 }
@@ -191,4 +198,13 @@ font-size:30px;
     color: #757575;
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin:30px 20px ;
+}
+
+.dwonload-cv{
+    text-align: center;
+    margin-top: 50px;
 }
