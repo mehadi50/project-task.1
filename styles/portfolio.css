@@ -1,8 +1,14 @@
 /* common shaerd style*/
 body{
 
-    font-family:'Courier New', Courier, monospace;
+    font-family:'open sans;
 }
+.web title{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
 .text-primary{
 color:orange;
 }
@@ -23,33 +29,42 @@ nav{
     display: flex;
 justify-content: space-between;
 align-items: center;
+margin: 0 200px;
 
 }
 
 nav>ul{
     display: flex;
     align-items: center;
-
 }
 
-nav>li{
+nav li{
     list-style: none;
     margin-right:30px;
-    padding-left: 150px;
-    
+    padding-left: 100px;
 }
 
 nav a{
     text-decoration: none;
     color:rgba(3, 38, 55, 0.77);
-}
-
-.web title{
-     font-size: 45px;
-     font-family: sans-serif;
-     font-weight: 800;
+    
 }
 
 
+/*header related styles*/
+.header{
+    background-color:white;
+}
 
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+align-items: center;
 
+}
+.banner.profile-pic{
+    width: 450px;
+}
+.banner content{
+    
+}
