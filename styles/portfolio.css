@@ -54,6 +54,7 @@ nav a{
 /*header related styles*/
 .header{
     background-color:white;
+    
 }
 
 .banner{
@@ -65,6 +66,7 @@ align-items: center;
 .banner.profile-pic{
     width: 450px;
 }
+}
 .banner content{
-    
+
 }
